@@ -1,0 +1,5 @@
+address: http:\\test-stand.gb.ru
+browser: firefox
+sleep_time: 1
+login: "leonid"
+password: "142153c067"
