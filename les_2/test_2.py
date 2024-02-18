@@ -51,8 +51,8 @@ def test_step3(element_locators, expected_result, test_data, site, expected_succ
     site.wait(10)
     create_post_button = site.find_element("css", element_locators["create_post_button"])
     create_post_button.click()
-
     site.wait(5)
+
     post_title_input = site.find_element("xpath", element_locators["post_title_input"])
     post_title_input.send_keys("Заголовок поста")
     site.wait(5)

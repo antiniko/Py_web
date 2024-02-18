@@ -19,7 +19,7 @@ def element_locators():
         "post_description_input": "//*[@id='create-item']/div/div/div[2]/div/label/span/textarea",
         "post_content_input": "//*[@id='create-item']/div/div/div[3]/div/label/span/textarea",
         "post_save_button": "#create-item > div > div > div:nth-child(7) > div > button",
-        "check_new_post_title": "//*[@id='app']/main/div/div[3]/div[1]/a[1]/h2",
+        "check_new_post_title": "//*[@id='app']/main/div/div[1]/h1",
 
     }
     return locators
