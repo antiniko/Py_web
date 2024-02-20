@@ -90,10 +90,8 @@ class OperationsHelper(BasePage):
             # Принимаем alert (закрываем его)
             alert.accept()
 
-            # Возвращаем True в случае успешной обработки alert
             return True
 
         except Exception as e:
             logging.error(f"Error handling alert: {e}")
-            # Возвращаем False в случае ошибки или если alert не был обработан
             return False
