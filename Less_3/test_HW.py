@@ -13,7 +13,7 @@ def test_step1(browser):
     testpage.click_login_button()
     assert testpage.get_success_text() == "Home"
     testpage.click_contact_button()
-    time.sleep(2) #необходимая задежрка, иначе цепляет текст с прошлой страницы
+    time.sleep(1) #необходимая задежрка, иначе цепляет текст с прошлой страницы
     assert testpage.get_contact_us_text() == "Contact us!"
     testpage.enter_name_for_contact("bobot")
     testpage.enter_emael_for_contact("bobot@bobot.bobot")
